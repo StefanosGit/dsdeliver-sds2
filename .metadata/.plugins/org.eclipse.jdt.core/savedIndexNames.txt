@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+/Users/stefanospavlidis/devSuperior/.metadata/.plugins/org.eclipse.jdt.core
+1476245916.index
