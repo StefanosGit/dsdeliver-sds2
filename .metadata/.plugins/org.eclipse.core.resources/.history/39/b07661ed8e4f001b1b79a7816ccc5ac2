@@ -44,7 +44,7 @@ public class OrderService implements Serializable{
 	@Transactional
 	public OrderDTO insert (OrderDTO orderDTO) {
 		
-		Order order = new Order(null, orderDTO.getAddress(), orderDTO.getLatitude()
+		Order order = new Order(null, orderDTO.getAddress(), orderDTO.getLongitude()
 				, orderDTO.getLongitude(), Instant.now(), OrderStatus.PENDING);
 		
 		for(ProductDTO productDTO:orderDTO.getProducts()) {

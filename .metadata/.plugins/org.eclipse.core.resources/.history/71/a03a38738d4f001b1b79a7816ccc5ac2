@@ -45,7 +45,8 @@ public class OrderController implements Serializable {
 				.buildAndExpand(orderDTO.getId()).toUri();
 		
 		return ResponseEntity.created(uri).body(orderDTO);
-
+		
+		return ResponseEntity.ok().body(orderDTO);
 		
 	}
 	
