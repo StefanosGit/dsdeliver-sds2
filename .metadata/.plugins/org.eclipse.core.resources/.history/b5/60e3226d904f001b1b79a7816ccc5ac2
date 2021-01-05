@@ -64,15 +64,6 @@ public class OrderService implements Serializable{
 		
 	}
 	
-	@Transactional
-	public OrderDTO setDelivered(Long id) {
-		
-		Order order = orderRepository.getOne(id);
-		order.setStatus(OrderStatus.DELIVERED);
-		orderRepository.save(order);
-		return new OrderDTO(order);
-		
-	}
-		
+	
 
 }
