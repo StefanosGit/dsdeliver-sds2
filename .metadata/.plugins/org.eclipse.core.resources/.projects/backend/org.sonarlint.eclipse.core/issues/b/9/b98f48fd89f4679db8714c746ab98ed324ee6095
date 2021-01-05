@@ -1,0 +1,13 @@
+
+‡
+java:S1128"URemove this unused import 'com.devsuperior.dsdeliver.repositories.ProductRepository'.(øçù·8âÿü”í.HvRMINORZ
+CODE_SMELL
+~
+java:S1128"GRemove this unused import 'com.devsuperior.dsdeliver.entities.Product'.(ûôôøÿÿÿÿ8âÿü”í.HwRMINORZ
+CODE_SMELL
+q
+java:S1854":Remove this useless assignment to local variable "orders".(¿šÿ·øÿÿÿÿ8âÿü”í.HxRMAJORZ
+CODE_SMELL
+b
+java:S1481"+Remove this unused "orders" local variable.(¿šÿ·øÿÿÿÿ8âÿü”í.HyRMINORZ
+CODE_SMELL
